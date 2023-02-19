@@ -1,0 +1,165 @@
+html, body {
+    font-family: "Raleway", serif;
+    font-size: 16px;
+    background-color: whitesmoke;
+    
+}
+
+header {
+    background-color: #41462d;
+    background-repeat: no-repeat;
+  
+  
+}
+
+.header {
+    display:inline-flex;
+    width: 100%;
+    justify-content: space-between;  
+    justify-items: center;
+}
+
+.contactslogo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    opacity: 0.8;
+}
+
+.logoconteiner {
+    padding-top: 15px;
+    padding-right: 20px;
+}
+
+.logocontacts {
+    padding-left: 10px;;
+}
+
+
+
+.parts {
+    background-image: url(https://i.imgur.com/v8WdWVU.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 350px;
+    align-self: center;
+    
+   
+}
+.mission {
+    background-color: #41462d;
+    margin-top: 30px;
+    margin-left: 2px;
+    margin-right: 2px;
+    color: rgb(214, 212, 209);
+    width: 98%;
+    height: 170px;
+    opacity: 1;
+    font-family: "Raleway", serif;
+    font-size: 20px;
+    border: 4px solid  rgb(226, 171, 51) ;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.vision {
+    background-color: #41462d;
+    margin-top: -20px;
+    margin-left: 2px;
+    margin-right: 2px;
+    color: rgb(214, 212, 209);
+    width: 98%;
+    height: 170px;
+    opacity: 1;
+    font-family: "Raleway", serif;
+    font-size: 20px;
+    border: 4px solid  rgb(226, 171, 51);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.ourteam {
+    background-color: #41462d;
+    color: rgb(214, 212, 209);
+    opacity: 1;
+    font-family: "Raleway", serif;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 20px;
+    border: 4px solid  rgb(226, 171, 51);
+    height: 100px;
+    width: 50%;
+    align-items: center;
+    display: grid;
+    align-self: center;
+    margin-left: 75%;
+}
+
+.pic {
+    text-align: center;
+}
+
+.Margit {
+    margin-top: -30px;
+    margin-bottom: 0px;
+}
+
+.Virgo {
+    margin-top: -100px;
+    margin-bottom: 0px;
+}
+
+
+.employees {
+        text-align: center;
+        margin-top: -330px;
+        border-radius: 20px;
+        font-size: 20px;
+        font-family: "Raleway", serif;
+        color: #41462d;;
+}
+.personal-container {
+display: inline-flex;
+max-width: 1000px;
+height: auto;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+justify-content: space-around;
+}
+.picname {
+    border-radius: 20px;
+    border: 4px solid  rgb(226, 171, 51);
+    fit
+}
+.missionvision {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    gap: 10px;
+}
+
+.foot {
+    display: inline-flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #41462d;;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    margin-top: 30px;
+    height: 70px;   
+}
+.thebest {
+    font-family: "Satisfy", serif;
+    font-size: 25px;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+    margin-top: 0%;
+    margin-bottom: 0%;
+    border-color: aliceblue;
+    text-align: center;
+    justify-content: center;
+    width: 700px;
+}
