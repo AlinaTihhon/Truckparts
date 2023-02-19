@@ -60,6 +60,7 @@ header {
     border: 4px solid  rgb(226, 171, 51) ;
     border-radius: 20px;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .vision {
@@ -76,6 +77,7 @@ header {
     border: 4px solid  rgb(226, 171, 51);
     border-radius: 20px;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .ourteam {
@@ -120,17 +122,18 @@ header {
 }
 .personal-container {
 display: inline-flex;
-max-width: 1000px;
+max-width: 1200px;
 height: auto;
 flex-wrap: wrap;
 align-items: center;
 justify-content: center;
-justify-content: space-around;
+
 }
 .picname {
     border-radius: 20px;
     border: 4px solid  rgb(226, 171, 51);
-    fit
+    margin-left: 40px;
+    margin-right: 40px;
 }
 .missionvision {
     display: grid;
