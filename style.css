@@ -4,8 +4,9 @@ html, body {
     background-color: whitesmoke;
     margin: 0%;
     }
-@media only screen and (max-width: 319px) and (max-width: 427px) {    
-    html, body {
+    @media only screen and (max-width: 375px) and (max-width: 425px) {   
+        html, body {
+            width: fit-content;
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
@@ -14,13 +15,12 @@ html, body {
             align-items: center;
         }
     }
-
 header {
     background-color: #41462d;
     background-repeat: no-repeat; 
 }
 
-@media only screen and (max-width: 319px) and (max-width: 427px) {
+@media only screen and (max-width: 375px) and (max-width: 425px) {
     .header {
         display: inline-flex;
         align-content: stretch;
@@ -29,32 +29,25 @@ header {
         align-items: center;
     }
 }
-
 .header {
     display:inline-flex;
     width: 100%;
     justify-content: space-between;  
     justify-items: center;
 }
-
 .contactslogo {
     display: flex;
     align-items: flex-start;
     justify-content: center;
     opacity: 0.8;
 }
-
 .logoconteiner {
     padding-top: 15px;
     padding-right: 20px;
 }
-
 .logocontacts {
     padding-left: 10px;;
 }
-
-
-
 .parts {
     background-image: url(https://i.imgur.com/v8WdWVU.jpg);
     background-repeat: no-repeat;
@@ -63,22 +56,21 @@ header {
     align-self: center;
     margin-top: 40px;
 }
-@media only screen and (max-width: 319px) and (max-width: 427px) {
+@media only screen and (max-width: 375px) and (max-width: 425px) {
     .parts {
     display: flex;
     background-image: none;
-    
+
     }
 }
 
-@media only screen and (max-width: 319px) and (max-width: 427px){
+@media only screen and (max-width: 375px) and (max-width: 425px){
     .parent {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
     }
 }
-
 .mission {
     background-color: #41462d;
     margin-top: 30px;
@@ -98,15 +90,17 @@ header {
 
 
 
-@media only screen and (max-width: 319px) and (max-width: 427px) {
+@media only screen and (max-width: 375px) and (max-width: 425px) {
+
     div.mission {
         display: grid;
         align-self: center;
         width: 95%;
-        
+
     }
  }
- @media only screen and (max-width: 319px) and (max-width: 427px) {
+ @media only screen and (max-width: 375px) and (max-width: 425px) {
+
     .mission {
      height: 250px;
      }
@@ -128,20 +122,21 @@ header {
     padding-bottom: 20px;
 }
 
-@media only screen and (max-width: 319px) and (max-width: 427px) {
+@media only screen and (max-width: 375px) and (max-width: 425px) {
+
     div.vision {
         display: grid;
         align-self: center;
         width: 95%;
-        
+
     }
  }
- @media only screen and (max-width: 319px) and (max-width: 427px) {
+ @media only screen and (max-width: 375px) and (max-width: 425px) {
+ 
     .vision {
      height: 250px;
      }
   }
-
 .ourteam {
     background-color: #41462d;
     color: rgb(214, 212, 209);
@@ -161,7 +156,8 @@ header {
 }
 
 
-@media only screen and (max-width: 319px) and (max-width: 427px) {
+@media only screen and (max-width: 375px) and (max-width: 425px) {
+
     div.ourteam{
         display: grid;
         align-self: center;
@@ -172,33 +168,30 @@ header {
         align-content: space-around;
     }
  }
- @media only screen and (max-width: 319px) and (max-width: 427px) {
+ @media only screen and (max-width: 375px) and (max-width: 425px) {
+
     .ourteam {
      height: 100px;
      }
   }
-
-
 .pic {
     text-align: center;
 }
-
 .Margit {
     margin-top: -30px;
     margin-bottom: 0px;
     z-index: 1;
 }
-
 .Virgo {
     margin-top: -100px;
     margin-bottom: 0px;
 }
-@media only screen and (max-width: 319px) and (max-width: 427px) {
+@media only screen and (max-width: 375px) and (max-width: 425px) {
+
     .Virgo, .Margit {
         display: none;
     }
 }
-
 .employees {
         text-align: center;
         margin-top: -330px;
@@ -215,16 +208,16 @@ flex-wrap: wrap;
 align-items: center;
 justify-content: center;
 }
-@media only screen and (max-width: 319px) and (max-width: 427px) {
+@media only screen and (max-width: 375px) and (max-width: 425px) {
+
     div.personal-container {
-        
+
         display: flex;
         flex-direction: column;
         align-content: center;
         align-items: center;
     
 }
-
 }
 .picname {
     border-radius: 20px;
@@ -240,7 +233,8 @@ justify-content: center;
     align-content: center;
     gap: 10px;
 }
-@media only screen and (max-width: 319px) and (max-width: 427px) {
+@media only screen and (max-width: 375px) and (max-width: 425px) {
+
 .missionvision {
     display: flex;
     align-items: center;
@@ -252,7 +246,6 @@ justify-content: center;
     margin: 0%;
 }
 }
-
 .foot {
     display: inline-flex;
     align-content: center;
@@ -265,18 +258,19 @@ justify-content: center;
     height: 70px;   
 }
 
-@media only screen and (max-width: 319px) and (max-width: 427px) {
+@media only screen and (max-width: 375px) and (max-width: 425px) {
+
     div.foot {
         display: flex ;
         flex-wrap: wrap;
     }
 }
-@media only screen and (max-width: 319px) and (max-width: 427px) {
+@media only screen and (max-width: 375px) and (max-width: 425px) {
+
     h3.thebest {
         width: fit-content;
     }
 }
-
 .thebest {
     font-family: "Satisfy", serif;
     font-size: 25px;
@@ -289,7 +283,6 @@ justify-content: center;
     justify-content: center;
     width: 700px;
 }
-
 .products {
     background-color: #41462d;
     color: rgb(214, 212, 209);
@@ -306,10 +299,8 @@ justify-content: center;
     margin-left: auto;
     margin-top: 120px;
 }
-
 .whatwedo-container {
 display: inline-flex;
-
 max-width: 1300px;
 height: auto;
 flex-wrap: wrap;
@@ -319,7 +310,8 @@ margin-top: 40px;
 margin-left: 3%;
 }
 
-@media only screen and (max-width: 319px) and (max-width: 427px) {
+@media only screen and (max-width: 375px) and (max-width: 425px) {
+
     div.products {
         display: grid;
         align-self: center;
@@ -330,12 +322,12 @@ margin-left: 3%;
         align-content: space-around;
     }
 }
-@media only screen and (max-width: 319px) and (max-width: 427px) {
+@media only screen and (max-width: 375px) and (max-width: 425px) {
+
     .products {
         height: 150px;
     }
 }
-
 .dismantled, .agregates, .vehicles {
     border-radius: 20px;
     border: 4px solid  rgb(226, 171, 51);
@@ -347,7 +339,6 @@ margin-left: 3%;
     width: 330px;
    
 }
-
 .product-text {
     background-color: #41462d;
     color: rgb(214, 212, 209);
@@ -366,13 +357,13 @@ margin-left: 3%;
     padding-top: 6%;
     
 }
-
 .whatwedo-container img{
     border-radius: 20px;
     width: 330px;
 }
 
-@media only screen and (max-width: 319px) and (max-width: 427px) {
+@media only screen and (max-width: 375px) and (max-width: 425px) {
+
     div.whatwedo-container {
         display: flex;
         align-items: center;
@@ -380,7 +371,6 @@ margin-left: 3%;
         flex-wrap: nowrap;
         justify-content: space-around;
         min-width: 310px;
-        max-width: 417px;
-        
+        max-width: 417px; 
     }
 }
