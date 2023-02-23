@@ -4,7 +4,7 @@ html, body {
     background-color: whitesmoke;
     margin: 0%;
     }
-    @media only screen and (max-width: 375px) and (max-width: 425px) {   
+    @media only screen and (max-width: 425px) {   
         html, body {
             width: fit-content;
             display: flex;
@@ -20,7 +20,7 @@ header {
     background-repeat: no-repeat; 
 }
 
-@media only screen and (max-width: 375px) and (max-width: 425px) {
+@media only screen and (max-width: 425px) {
     .header {
         display: inline-flex;
         align-content: stretch;
@@ -56,7 +56,7 @@ header {
     align-self: center;
     margin-top: 40px;
 }
-@media only screen and (max-width: 375px) and (max-width: 425px) {
+@media only screen and (max-width: 425px) {
     .parts {
     display: flex;
     background-image: none;
@@ -64,7 +64,7 @@ header {
     }
 }
 
-@media only screen and (max-width: 375px) and (max-width: 425px){
+@media only screen  and (max-width: 425px){
     .parent {
         display: flex;
         flex-wrap: wrap;
@@ -90,7 +90,7 @@ header {
 
 
 
-@media only screen and (max-width: 375px) and (max-width: 425px) {
+@media only screen  and (max-width: 425px) {
 
     div.mission {
         display: grid;
@@ -99,7 +99,7 @@ header {
 
     }
  }
- @media only screen and (max-width: 375px) and (max-width: 425px) {
+ @media only screen and (max-width: 425px) {
 
     .mission {
      height: 250px;
@@ -122,7 +122,7 @@ header {
     padding-bottom: 20px;
 }
 
-@media only screen and (max-width: 375px) and (max-width: 425px) {
+@media only screen and (max-width: 425px) {
 
     div.vision {
         display: grid;
@@ -131,7 +131,7 @@ header {
 
     }
  }
- @media only screen and (max-width: 375px) and (max-width: 425px) {
+ @media only screen and (max-width: 425px) {
  
     .vision {
      height: 250px;
@@ -156,7 +156,7 @@ header {
 }
 
 
-@media only screen and (max-width: 375px) and (max-width: 425px) {
+@media only screen and (max-width: 425px) {
 
     div.ourteam{
         display: grid;
@@ -168,7 +168,7 @@ header {
         align-content: space-around;
     }
  }
- @media only screen and (max-width: 375px) and (max-width: 425px) {
+ @media only screen and  (max-width: 425px) {
 
     .ourteam {
      height: 100px;
@@ -186,7 +186,7 @@ header {
     margin-top: -100px;
     margin-bottom: 0px;
 }
-@media only screen and (max-width: 375px) and (max-width: 425px) {
+@media only screen and  (max-width: 425px) {
 
     .Virgo, .Margit {
         display: none;
@@ -208,7 +208,7 @@ flex-wrap: wrap;
 align-items: center;
 justify-content: center;
 }
-@media only screen and (max-width: 375px) and (max-width: 425px) {
+@media only screen and  (max-width: 425px) {
 
     div.personal-container {
 
@@ -233,7 +233,7 @@ justify-content: center;
     align-content: center;
     gap: 10px;
 }
-@media only screen and (max-width: 375px) and (max-width: 425px) {
+@media only screen and  (max-width: 425px) {
 
 .missionvision {
     display: flex;
@@ -258,14 +258,14 @@ justify-content: center;
     height: 70px;   
 }
 
-@media only screen and (max-width: 375px) and (max-width: 425px) {
+@media only screen and  (max-width: 425px) {
 
     div.foot {
         display: flex ;
         flex-wrap: wrap;
     }
 }
-@media only screen and (max-width: 375px) and (max-width: 425px) {
+@media only screen and (max-width: 425px) {
 
     h3.thebest {
         width: fit-content;
@@ -310,7 +310,7 @@ margin-top: 40px;
 margin-left: 3%;
 }
 
-@media only screen and (max-width: 375px) and (max-width: 425px) {
+@media only screen  and (max-width: 425px) {
 
     div.products {
         display: grid;
@@ -322,7 +322,7 @@ margin-left: 3%;
         align-content: space-around;
     }
 }
-@media only screen and (max-width: 375px) and (max-width: 425px) {
+@media only screen  and (max-width: 425px) {
 
     .products {
         height: 150px;
@@ -362,7 +362,7 @@ margin-left: 3%;
     width: 330px;
 }
 
-@media only screen and (max-width: 375px) and (max-width: 425px) {
+@media only screen  and (max-width: 425px) {
 
     div.whatwedo-container {
         display: flex;
