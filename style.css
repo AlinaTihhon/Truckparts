@@ -6,7 +6,7 @@ html, body {
     }
     @media only screen and (max-width: 375px) and (max-width: 896px) {    
         html, body {
-            width: fit-content;
+           
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
