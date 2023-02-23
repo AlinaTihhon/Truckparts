@@ -4,9 +4,8 @@ html, body {
     background-color: whitesmoke;
     margin: 0%;
     }
-    @media only screen and (min-width: 320px) and (max-width: 896px) {    
-        html, body {
-           
+@media only screen and (max-width: 319px) and (max-width: 427px) {    
+    html, body {
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
@@ -21,7 +20,7 @@ header {
     background-repeat: no-repeat; 
 }
 
-@media only screen and (min-width: 320px) and (max-width: 896px) {
+@media only screen and (max-width: 319px) and (max-width: 427px) {
     .header {
         display: inline-flex;
         align-content: stretch;
@@ -64,7 +63,7 @@ header {
     align-self: center;
     margin-top: 40px;
 }
-@media only screen and (min-width: 320px) and (max-width: 896px) {
+@media only screen and (max-width: 319px) and (max-width: 427px) {
     .parts {
     display: flex;
     background-image: none;
@@ -72,7 +71,7 @@ header {
     }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 896px){
+@media only screen and (max-width: 319px) and (max-width: 427px){
     .parent {
         display: flex;
         flex-wrap: wrap;
@@ -99,7 +98,7 @@ header {
 
 
 
-@media only screen and (min-width: 320px) and (max-width: 896px) {
+@media only screen and (max-width: 319px) and (max-width: 427px) {
     div.mission {
         display: grid;
         align-self: center;
@@ -107,7 +106,7 @@ header {
         
     }
  }
- @media only screen and (min-width: 320px) and (max-width: 896px) {
+ @media only screen and (max-width: 319px) and (max-width: 427px) {
     .mission {
      height: 250px;
      }
@@ -129,7 +128,7 @@ header {
     padding-bottom: 20px;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 896px) {
+@media only screen and (max-width: 319px) and (max-width: 427px) {
     div.vision {
         display: grid;
         align-self: center;
@@ -137,7 +136,7 @@ header {
         
     }
  }
- @media only screen and (min-width: 320px) and (max-width: 896px) {
+ @media only screen and (max-width: 319px) and (max-width: 427px) {
     .vision {
      height: 250px;
      }
@@ -162,7 +161,7 @@ header {
 }
 
 
-@media only screen and (min-width: 320px) and (max-width: 896px) {
+@media only screen and (max-width: 319px) and (max-width: 427px) {
     div.ourteam{
         display: grid;
         align-self: center;
@@ -173,7 +172,7 @@ header {
         align-content: space-around;
     }
  }
- @media only screen and (min-width: 320px) and (max-width: 896px) {
+ @media only screen and (max-width: 319px) and (max-width: 427px) {
     .ourteam {
      height: 100px;
      }
@@ -194,7 +193,7 @@ header {
     margin-top: -100px;
     margin-bottom: 0px;
 }
-@media only screen and (min-width: 320px) and (max-width: 896px) {
+@media only screen and (max-width: 319px) and (max-width: 427px) {
     .Virgo, .Margit {
         display: none;
     }
@@ -216,7 +215,7 @@ flex-wrap: wrap;
 align-items: center;
 justify-content: center;
 }
-@media only screen and (min-width: 320px) and (max-width: 896px) {
+@media only screen and (max-width: 319px) and (max-width: 427px) {
     div.personal-container {
         
         display: flex;
@@ -241,7 +240,7 @@ justify-content: center;
     align-content: center;
     gap: 10px;
 }
-@media only screen and (min-width: 320px) and (max-width: 896px) {
+@media only screen and (max-width: 319px) and (max-width: 427px) {
 .missionvision {
     display: flex;
     align-items: center;
@@ -266,13 +265,13 @@ justify-content: center;
     height: 70px;   
 }
 
-@media only screen and (min-width: 320px) and (max-width: 896px) {
+@media only screen and (max-width: 319px) and (max-width: 427px) {
     div.foot {
         display: flex ;
         flex-wrap: wrap;
     }
 }
-@media only screen and (min-width: 320px) and (max-width: 896px) {
+@media only screen and (max-width: 319px) and (max-width: 427px) {
     h3.thebest {
         width: fit-content;
     }
@@ -320,7 +319,7 @@ margin-top: 40px;
 margin-left: 3%;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 896px) {
+@media only screen and (max-width: 319px) and (max-width: 427px) {
     div.products {
         display: grid;
         align-self: center;
@@ -331,7 +330,7 @@ margin-left: 3%;
         align-content: space-around;
     }
 }
-@media only screen and (min-width: 320px) and (max-width: 896px) {
+@media only screen and (max-width: 319px) and (max-width: 427px) {
     .products {
         height: 150px;
     }
@@ -373,7 +372,7 @@ margin-left: 3%;
     width: 330px;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 896px) {
+@media only screen and (max-width: 319px) and (max-width: 427px) {
     div.whatwedo-container {
         display: flex;
         align-items: center;
