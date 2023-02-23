@@ -2,14 +2,33 @@ html, body {
     font-family: "Raleway", serif;
     font-size: 16px;
     background-color: whitesmoke;
-    
-}
+    margin: 0%;
+    }
+    @media only screen and (max-width: 375px) and (max-width: 425px) {    
+        html, body {
+            width: fit-content;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-content: flex-start;
+            justify-content: center;
+            align-items: center;
+        }
+    }
 
 header {
     background-color: #41462d;
-    background-repeat: no-repeat;
-  
-  
+    background-repeat: no-repeat; 
+}
+
+@media only screen and (max-width: 375px) and (max-width: 425px) {
+    .header {
+        display: inline-flex;
+        align-content: stretch;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .header {
@@ -43,9 +62,24 @@ header {
     background-size: 100%;
     padding-bottom: 350px;
     align-self: center;
-    
-   
+    margin-top: 40px;
 }
+@media only screen and (max-width: 375px) and (max-width: 425px) {
+    .parts {
+    display: flex;
+    background-image: none;
+    
+    }
+}
+
+@media only screen and (max-width: 375px) and (max-width: 425px){
+    .parent {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
 .mission {
     background-color: #41462d;
     margin-top: 30px;
@@ -63,6 +97,21 @@ header {
     padding-bottom: 20px;
 }
 
+
+
+@media only screen and (max-width: 375px) and (max-width: 425px) {
+    div.mission {
+        display: grid;
+        align-self: center;
+        width: 95%;
+        
+    }
+ }
+ @media only screen and (max-width: 375px) and (max-width: 425px) {
+    .mission {
+     height: 250px;
+     }
+  }
 .vision {
     background-color: #41462d;
     margin-top: -20px;
@@ -80,6 +129,20 @@ header {
     padding-bottom: 20px;
 }
 
+@media only screen and (max-width: 375px) and (max-width: 425px) {
+    div.vision {
+        display: grid;
+        align-self: center;
+        width: 95%;
+        
+    }
+ }
+ @media only screen and (max-width: 375px) and (max-width: 425px) {
+    .vision {
+     height: 250px;
+     }
+  }
+
 .ourteam {
     background-color: #41462d;
     color: rgb(214, 212, 209);
@@ -95,7 +158,27 @@ header {
     display: grid;
     align-self: center;
     margin-left: 75%;
+    margin-top: 120px;
 }
+
+
+@media only screen and (max-width: 375px) and (max-width: 425px) {
+    div.ourteam{
+        display: grid;
+        align-self: center;
+        width: 95%;
+        margin-left: 0%;
+        justify-content: center;
+        align-items: center;
+        align-content: space-around;
+    }
+ }
+ @media only screen and (max-width: 375px) and (max-width: 425px) {
+    .ourteam {
+     height: 100px;
+     }
+  }
+
 
 .pic {
     text-align: center;
@@ -104,13 +187,18 @@ header {
 .Margit {
     margin-top: -30px;
     margin-bottom: 0px;
+    z-index: 1;
 }
 
 .Virgo {
     margin-top: -100px;
     margin-bottom: 0px;
 }
-
+@media only screen and (max-width: 375px) and (max-width: 425px) {
+    .Virgo, .Margit {
+        display: none;
+    }
+}
 
 .employees {
         text-align: center;
@@ -127,6 +215,16 @@ height: auto;
 flex-wrap: wrap;
 align-items: center;
 justify-content: center;
+}
+@media only screen and (max-width: 375px) and (max-width: 425px) {
+    div.personal-container {
+        
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    
+}
 
 }
 .picname {
@@ -134,6 +232,7 @@ justify-content: center;
     border: 4px solid  rgb(226, 171, 51);
     margin-left: 40px;
     margin-right: 40px;
+    margin-top: 40px;
 }
 .missionvision {
     display: grid;
@@ -141,6 +240,18 @@ justify-content: center;
     grid-template-columns: 1fr 1fr;
     align-content: center;
     gap: 10px;
+}
+@media only screen and (max-width: 375px) and (max-width: 425px) {
+.missionvision {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    min-width: 310px;
+    max-width: 417px;
+    margin: 0%;
+}
 }
 
 .foot {
@@ -154,6 +265,19 @@ justify-content: center;
     margin-top: 30px;
     height: 70px;   
 }
+
+@media only screen and (max-width: 375px) and (max-width: 425px) {
+    div.foot {
+        display: flex ;
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width: 375px) and (max-width: 425px) {
+    h3.thebest {
+        width: fit-content;
+    }
+}
+
 .thebest {
     font-family: "Satisfy", serif;
     font-size: 25px;
@@ -165,4 +289,99 @@ justify-content: center;
     text-align: center;
     justify-content: center;
     width: 700px;
+}
+
+.products {
+    background-color: #41462d;
+    color: rgb(214, 212, 209);
+    opacity: 1;
+    font-family: "Raleway", serif;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 20px;
+    border: 4px solid  rgb(226, 171, 51);
+    height: 100px;
+   
+    align-items: center;
+    display: grid;
+    margin-left: auto;
+    margin-top: 120px;
+}
+
+.whatwedo-container {
+display: inline-flex;
+
+max-width: 1300px;
+height: auto;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+margin-top: 40px;
+margin-left: 3%;
+}
+
+@media only screen and (max-width: 375px) and (max-width: 425px) {
+    div.products {
+        display: grid;
+        align-self: center;
+        width: 57%;
+        margin-left: -5%;
+        justify-content: center;
+        align-items: center;
+        align-content: space-around;
+    }
+}
+@media only screen and (max-width: 375px) and (max-width: 425px) {
+    .products {
+        height: 150px;
+    }
+}
+
+.dismantled, .agregates, .vehicles {
+    border-radius: 20px;
+    border: 4px solid  rgb(226, 171, 51);
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    display: grid;
+    align-self: center;
+    width: 330px;
+   
+}
+
+.product-text {
+    background-color: #41462d;
+    color: rgb(214, 212, 209);
+    opacity: 1;
+    font-family: "Raleway", serif;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 18px;
+    border: 4px solid  rgb(226, 171, 51);
+    height: 50px;
+    width: 325px;
+    display: grid;
+    align-self: center;
+    margin-top: -20px;
+    text-decoration: underline;
+    padding-top: 6%;
+    
+}
+
+.whatwedo-container img{
+    border-radius: 20px;
+    width: 330px;
+}
+
+@media only screen and (max-width: 375px) and (max-width: 425px) {
+    div.whatwedo-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        min-width: 310px;
+        max-width: 417px;
+        
+    }
 }
