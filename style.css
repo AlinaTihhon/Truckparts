@@ -64,6 +64,12 @@ header {
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .parts {
+    height: 500px;
+
+    }
+}
 @media only screen  and (max-width: 425px){
     .parent {
         display: flex;
@@ -96,6 +102,7 @@ header {
         display: grid;
         align-self: center;
         width: 95%;
+        margin-top: 140px;
 
     }
  }
@@ -103,8 +110,24 @@ header {
 
     .mission {
      height: 250px;
+     margin-top:140px;
      }
   }
+
+  @media only screen and (max-width: 768px) {
+
+    .mission {
+     height: 220px;
+    
+     }
+  } 
+  @media only screen and (max-width: 768px) {
+  .missionvision {
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+}
+
 .vision {
     background-color: #41462d;
     margin-top: -20px;
@@ -128,6 +151,7 @@ header {
         display: grid;
         align-self: center;
         width: 95%;
+        margin-top: 0px
 
     }
  }
@@ -135,8 +159,16 @@ header {
  
     .vision {
      height: 250px;
+     margin-top: -1258px;
      }
   }
+  @media only screen and (max-width: 768px) {
+
+    .vision {
+     height: 220px;
+     margin-top: -258px;
+     }
+  } 
 .ourteam {
     background-color: #41462d;
     color: rgb(214, 212, 209);
@@ -193,6 +225,13 @@ header {
         display: none;
     }
 }
+
+@media only screen and  (max-width: 768px) {
+
+    .Virgo, .Margit {
+        display: none;
+    }
+}
 .employees {
         text-align: center;
         margin-top: -330px;
@@ -212,11 +251,11 @@ justify-content: center;
 @media only screen and  (max-width: 425px) {
 
     div.personal-container {
-
         display: flex;
         flex-direction: column;
         align-content: center;
         align-items: center;
+        margin-top: 120px;
     
 }
 }
@@ -294,6 +333,13 @@ margin-left: 3%;
         height: 150px;
     }
 }
+@media only screen  and (max-width: 768px) {
+
+    .products {
+        height: 150px;
+        margin-top: 40px;
+    }
+}
 .dismantled, .agregates, .vehicles {
     border-radius: 20px;
     border: 4px solid  rgb(226, 171, 51);
@@ -338,6 +384,17 @@ margin-left: 3%;
         justify-content: space-around;
         min-width: 310px;
         max-width: 417px; 
+    }
+}
+@media only screen  and (max-width: 768px) {
+
+    div.whatwedo-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
     }
 }
 .foot {
